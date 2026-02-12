@@ -1,13 +1,26 @@
 {
-  "name": "instagram-playwright-server",
+  "name": "instagram-playwright",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "postToInstagram.js",
   "scripts": {
-    "start": "node server.js",
-      },
-  "dependencies": {
-    "express": "^4.18.2",
-    "playwright": "^1.44.0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPIN333/instagram-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SPIN333/instagram-playwright/issues"
+  },
+  "homepage": "https://github.com/SPIN333/instagram-playwright#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "playwright": "^1.58.2"
+  }
 }
